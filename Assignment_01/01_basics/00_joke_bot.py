@@ -5,7 +5,7 @@ SORRY = "Sorry I only tell jokes"
 def main():
     user_input = input(PROMPT)
 
-    if user_input == "Joke":
+    if user_input.lower() == "joke":
         print(JOKE)
 
     else:
